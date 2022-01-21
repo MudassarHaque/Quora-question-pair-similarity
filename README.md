@@ -60,14 +60,13 @@ We build train and test by randomly splitting in the ratio of 70:30 or 80:20 wha
 
 ### results
 
-+---------------------+-----------------+---------------------+
-|        Model        | Hyper Parameter |       Log-Loss      |
-+---------------------+-----------------+---------------------+
+| Model | Hyper Parameter  | Log-Loss  |
+| :-----: | :-: | :-: |
 |     Random-Model    |       None      |  0.8869302838012473 |
 | Logistic-regression |       0.1       | 0.39982510645711417 |
 |      Linear-SVM     |      1e-06      | 0.41686335449690787 |
 |       XGBoost       |        7        |  0.3270234856736916 |
-+---------------------+-----------------+---------------------+
+
 
 ### conclusion
 
